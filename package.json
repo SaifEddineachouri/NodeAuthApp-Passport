@@ -1,0 +1,25 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "Mean Stack Authentification app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "^16.0.0",
+    "express": "*",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^2.0.15",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "seif",
+  "license": "ISC"
+}
